@@ -1,0 +1,91 @@
+#main {
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+    margin: 20% 0;
+    background-color: darkseagreen;
+}
+
+#left-container {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+
+    margin: 0 5%;
+}
+
+#musteriformu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
+
+label {
+    width: 100%;
+    margin: 10px 10px 0px 10px;
+}
+
+input {
+    width: 85%;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#kaydet {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    width: 35%;
+    margin-top: 30px;
+    justify-content: center;
+    background-color: rgb(15, 125, 216);
+    color: white;
+}
+
+
+#right-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 5%;
+}
+
+#header-right {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    align-items: center;
+    margin-bottom: 20px;
+}
+h2{
+    width: 50%;
+}
+#aramaKutusu {
+    width: 50%;
+    height: 20px;
+}
+table {
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 1em;
+    background: #ddd;
+    border-bottom: 2px solid white; 
+    text-align: start;
+    padding-left: 70px;
+  }
+  
+  .css-mine {
+    margin-top: 2em;
+    clear: both;
+  }
+  
+  body {
+    margin: 1.5em;
+  }

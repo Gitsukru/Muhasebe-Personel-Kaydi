@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Muhasebeci Leyla</title>
+</head>
+
+<body>
+    <main id="main">
+        <section id="left-container">
+            <form id="musteriformu" action="musteriformu">
+                <label for="isim">Isim</label>
+                <input name:"isim" id="clientFirstName" type="text">
+                <label for="soyisim">Soyisim</label>
+                <input name:"soyisim" id="clientLastName" type="text">
+                <label for="phone">Telefon numarasi</label>
+                <input name:"phone" id="phoneNumber" type=number>
+                <input id="SaveBtn" type="button" value="save"></input>
+            </form>
+        </section>
+
+        <section id="right-container">
+            <div id="header-right">
+                <h2>Kisiler</h2>
+                <input type="search" id="aramaKutusu" placeholder="Search">
+            </div>
+            <div id="tabloAlani">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Isim</th>
+                                <th>Soyisim</th>
+                                <th>Telefon numarasi</th>
+                                <th>Silme</th>
+                            </tr>
+                        </thead>
+                        <tbody class="clients-list-box">
+                         
+                        </tbody>
+                    </table>
+            </div>
+        </section>
+    </main>
+
+    <script src="./app.js"></script>
+    <!-- <script src="./function.js"></script>
+    <script src="./model.js"></script> -->
+</body>
+
+</html>
